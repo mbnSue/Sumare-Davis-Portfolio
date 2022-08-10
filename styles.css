@@ -13,8 +13,12 @@ header {border: 0px solid #000;
   top:0;
   position: sticky;
   width: 100%;
-  background-color: rgb(126, 178, 247);
   font-size: 16px;
+  border-radius: px;
+}
+header, footer{
+  background-color: lightblue;
+  border-radius: 50px;
 }
 
 h1, h2, h3 {
@@ -27,7 +31,6 @@ h1, h2, h3 {
 
 footer{
   border: 0px solid #000;
-  background-color: rgb(126, 178, 247);
   text-align: center;
   height: min-content;
 }
@@ -45,7 +48,7 @@ img{
   margin: 0 auto;
   display: block;
   width: 300px;
-  border-radius: 150px;
+  border-radius: 50px;
 }
 
 a:link{
@@ -69,5 +72,11 @@ nav{
 h3{
   text-align: left;
   text-decoration: underline;
-  color: rgb(17, 85, 204);
+  color: rgb(30, 30, 192);
+}
+article p{
+  font-size: 18px;
+}
+ul, ol{
+  font-size: 18px;
 }

@@ -6,23 +6,15 @@ body {
   margin: 10px;
   font-family: 'Times New Roman', Times, serif;
   color: black;
-  background-color: white;
 }
 
-header {border: 2px solid #000;
-  top:0;
-  position: sticky;
-  width: 100%;
-  background-color: rgb(126, 178, 247);
-  font-size: 16px;
-}
 h1 {
   color: rgb(17, 85, 204) ;
-  font-size: 32px;
+  font-size: 52px;
 }
 
  h2{
-   font-size: 24px;
+   font-size: 34px;
  }
 
  h3{
@@ -32,12 +24,6 @@ h1 {
   font-size: 22px;
 }
 
-footer{
-  border: 1px solid #000;
-  background-color: rgb(126, 178, 247);
-  text-align: center;
-  height: min-content;
-}
 
 .wrapper {
   text-align: left;
@@ -48,18 +34,12 @@ p{
   line-height:150%;
 
 }
-img{
-  margin: 0 auto;
-  display: block;
-  width: 300px;
-  border-radius: 150px;
-}
 
 a:link{
   color: blue;
 }
 a:visited{
-color: orange;
+color: darkblue;
 }
 a:hover{
 color: green;
@@ -71,6 +51,9 @@ color: lightgreen;
 nav{
   text-align: center;
   font-size: 20px;
-  border: 1px solid #000;
+  border: 0px solid #000;
+  background-color: white;
 }
-
+body{
+  background-color: rgb(17, 85, 204);
+}
