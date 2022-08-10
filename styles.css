@@ -4,12 +4,12 @@
 
 body {
   margin: 10px;
-  font-family: system-ui, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   color: black;
   background-color: white;
 }
 
-header {border: 2px solid #000;
+header {border: 0px solid #000;
   top:0;
   position: sticky;
   width: 100%;
@@ -26,7 +26,7 @@ h1, h2, h3 {
  }
 
 footer{
-  border: 1px solid #000;
+  border: 0px solid #000;
   background-color: rgb(126, 178, 247);
   text-align: center;
   height: min-content;
@@ -52,7 +52,7 @@ a:link{
   color: blue;
 }
 a:visited{
-color: orange;
+color: darkblue;
 }
 a:hover{
 color: green;
@@ -64,7 +64,7 @@ color: lightgreen;
 nav{
   text-align: center;
   font-size: 20px;
-  border: 1px solid #000;
+  top: 1px solid #000;
 }
 h3{
   text-align: left;
